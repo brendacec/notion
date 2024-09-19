@@ -15,14 +15,14 @@ body {
 
 button,
 button:active {
-  background-color: D7F9FF;
+  background-color: #D7F9FF;
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  box-shadow: 0.2em 0.2em #0E1C36;
+  -webkit-box-shadow: 0.2em 0.2em #0E1C36;
   -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
 }
 
@@ -36,7 +36,7 @@ button:focus {
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(240, 240, 190); 
+  background-color: #F9FBF2; 
   width: 350px;
   border-radius: 20px;
   padding: 30px;
