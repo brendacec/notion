@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Hello World!</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">Hello World!</h1>
+
+        <img
+          src="https://www.zdnet.com/a/img/resize/c6a186d1e8a3c28160375f6eb7824136d1c1163c/2022/05/02/b412d25a-2869-446c-ba30-00b28516df87/4x3-notion-page.jpg?auto=webp&fit=crop&height=900&width=1200"
+          class="illustration"
+          alt="Women in Computer Science"
+          title="Click the image!"
+        />
+        <h2>Links to brenda's widgets for Notion :-)</h2>
+        <div class="pages">
+          <a href="widgets/clock/index.html"> Pomodoro </a>
+          <a href="widgets/gallery/index.html"> Image Gallery </a>
+          <a href="index.html"> New Widget</a>
+        </div>
+        <script>
+          var randomlinks = new Array();
+
+          randomlinks[0] = "ada.html";
+          randomlinks[1] = "katherine.html";
+          randomlinks[2] = "grace.html";
+
+          function randomlink() {
+            window.location =
+              randomlinks[Math.floor(Math.random() * randomlinks.length)];
+          }
+        </script>
+        <form method="post">
+          <p>
+            <input
+              type="button"
+              name="B1"
+              value="Surprise Me! >>"
+              onclick="randomlink()"
+            />
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="links"></div>
+      <p>Brenda Ceja © 2024</p>
+      <a href="index.html"> Home </a>
+      <!-- <a href="Bibliography.html"> Bibliography </a> -->
+    </footer>
+  </body>
+</html>
